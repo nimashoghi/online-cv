@@ -100,7 +100,7 @@ experiences:
         compared to the Linux scheduler.
           - Exploiting sparsity of the SLAM algorithm to create an efficient, low-power SLAM implementation on the FPGA,
         which consumes 2.5× less power and is 7.4× faster than the state-of-the-art.
-          - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.    - role: Software Engineering Intern
+          - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.
     - role: Software Engineering Intern
       time: 05.2017 - 05.2018
       company: Ciena Corporation
@@ -116,7 +116,7 @@ projects:
         section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-        - title: Ringo: Optimal Ring Peer-to-peer Communication Protocol
+        - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
           link: "#"
           tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
 

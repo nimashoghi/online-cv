@@ -47,21 +47,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Master's student at Georgia Institute of Technology specializing in Machine Learning. I currently work as a student research assistant at the High Performance Architecture Lab at Georgia Tech.
+        I am a Master's student at Georgia Institute of Technology specializing in Machine Learning. I currently work as a student research assistant at the High Performance Architecture Lab at Georgia Tech.
 
-      Below is a list of my areas of experience:
+        Below is a list of my areas of experience:
 
-      - Artificial Intelligence and Machine Learning: NumPy, Pandas, TensorFlow, PyTorch, Keras, Scikit-Learn
-      - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans
-      - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
-      - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
-      - Full Stack Web Development: React, Angular, GraphQL and Apollo Client, ASP.NET Core
-      - Mobile Application Development: React Native, Android
-      - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java
-      - Reverse Engineering and Malware Analysis: Ghidra, IDA Pro, Cuckoo Sandbox, Yara, Capstone, Frida, WinDbg, x64dbg
-      - Systems Programming: Windows Device Drivers, Intel VT-x and VT-d, x86 and x86-64 assembly
-      - Test-Driven Development and Behavior-Driven Development: Cucumber, NUnit, Jest, FsCheck
-      - Miscellaneous: Windows, Linux, Debugging with Visual Studio and GDB, Git, PowerShell, Bash
+        - Artificial Intelligence and Machine Learning: NumPy, Pandas, TensorFlow, PyTorch, Keras, Scikit-Learn
+        - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans
+        - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
+        - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
+        - Full Stack Web Development: React, Angular, GraphQL and Apollo Client, ASP.NET Core
+        - Mobile Application Development: React Native, Android
+        - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java
+        - Reverse Engineering and Malware Analysis: Ghidra, IDA Pro, Cuckoo Sandbox, Yara, Capstone, Frida, WinDbg, x64dbg
+        - Systems Programming: Windows Device Drivers, Intel VT-x and VT-d, x86 and x86-64 assembly
+        - Test-Driven Development and Behavior-Driven Development: Cucumber, NUnit, Jest, FsCheck
+        - Miscellaneous: Windows, Linux, Debugging with Visual Studio and GDB, Git, PowerShell, Bash
 education:
     - degree: Master of Science in Computer Science
       university: Georgia Institute of Technology
@@ -94,13 +94,13 @@ experiences:
       time: 05.2019 - Present
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
-        Worked on the following projects during time at the HPArch lab:
-          - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
-          - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
-        compared to the Linux scheduler.
-          - Exploiting sparsity of the SLAM algorithm to create an efficient, low-power SLAM implementation on the FPGA,
-        which consumes 2.5× less power and is 7.4× faster than the state-of-the-art.
-          - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.
+          Worked on the following projects during time at the HPArch lab:
+            - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
+            - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
+          compared to the Linux scheduler.
+            - Exploiting sparsity of the SLAM algorithm to create an efficient, low-power SLAM implementation on the FPGA,
+          which consumes 2.5× less power and is 7.4× faster than the state-of-the-art.
+            - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.
     - role: Software Engineering Intern
       time: 05.2017 - 05.2018
       company: Ciena Corporation
@@ -135,7 +135,7 @@ publications:
           link: "#"
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
-        - title: PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra
+        - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra"
           link: "#"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
           conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted at Design Automation Conference 2020.

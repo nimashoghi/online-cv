@@ -97,13 +97,9 @@ projects:
           tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
         - title: "Smart Dasham and Backup Camera"
           link: "https://github.com/nimashoghi/ECE-4180-Project"
-          tagline: A Raspberry-Pi-based
+          tagline: A Raspberry-Pi-based application for wirelessly transmitting backup camera video to an LCD located in the front of the car. Additionally includes a dashcam module that automatically uploads your Dashcam footage to Google Drive when you arrive home.
 publications:
     title: Publications
-    intro: |
-        You can list your publications in this section. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-        bibendum fringilla a eu lectus.
     papers:
         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari

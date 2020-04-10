@@ -1,14 +1,10 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Nima Shoghi
-    tagline: Machine Learning Engineer
+    tagline: Software Development & Machine Learning Engineer
     avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -35,14 +31,10 @@ sidebar:
           level: Intermediate
 
     interests:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
         - item: Cooking
-          link:
+        - item: Photography
+        - item: Soccer
+        - item: Video Editing
 
 career-profile:
     title: Career Profile
@@ -51,7 +43,7 @@ career-profile:
 
         Below is a list of my areas of experience:
 
-        - Artificial Intelligence and Machine Learning: NumPy, Pandas, TensorFlow, PyTorch, Keras, Scikit-Learn
+        - Artificial Intelligence and Machine Learning: PyTorch, TensorFlow, NumPy, Pandas, Keras, Scikit-Learn
         - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans
         - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
         - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
@@ -65,33 +57,19 @@ career-profile:
 education:
     - degree: Master of Science in Computer Science
       university: Georgia Institute of Technology
-      time: 2020-2021
-      details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      time: Jan 2020 - May 2021
+      details: Specializing in Machine Learning
     - degree: Bachelor of Science in Computer Science
       university: Georgia Institute of Technology
-      time: 2015 - 2019
-      details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      time: May 2015 - Dec 2019
+      details: Specializing in the Intelligence and Devices threads.
 experiences:
     - role: Software Development and Machine Learning Engineer
-      time: 11.2019 - Present
+      time: Nov 2019 - Present
       company: Inovar Health, LLC
       details: Worked on a mobile application that matches users with similar activity interests within an organization. Worked on matchmaking algorithm that used data science and machine learning to optimize matches made. Customers include Georgia State University, Mercer University, and Georgia Power.
     - role: Student Assistant
-      time: 05.2019 - Present
+      time: May 2019 - Present
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
           Worked on the following projects during time at the HPArch lab:
@@ -102,24 +80,21 @@ experiences:
           which consumes 2.5× less power and is 7.4× faster than the state-of-the-art.
             - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.
     - role: Software Engineering Intern
-      time: 05.2017 - 05.2018
+      time: May 2017 - May 2018
       company: Ciena Corporation
       details: Developed software to interface with network devices (e.g., Cisco Meraki) for orchestration, which was deployed to over 150 customers worldwide, with 15 being tier 1 service providers. Maintained CI/CD pipeline for application build process.
     - role: Full-Stack Web Development Intern
-      time: 05.2016 - 01.2017
+      time: May 2016 - Jan 2017
       company: SysGee Incorporated
       details: Performed full stack development of web applications using PHP, MySQL, HTML, CSS, and JavaScript.
 projects:
     title: Projects
-    intro: >
-        You can list your side projects or open source libraries in this
-        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
         - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
-          link: "#"
           tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
-
+        - title: "Smart Dasham and Backup Camera"
+          link: "https://github.com/nimashoghi/ECE-4180-Project"
+          tagline: A Raspberry-Pi-based
 publications:
     title: Publications
     intro: |
@@ -128,46 +103,20 @@ publications:
         bibendum fringilla a eu lectus.
     papers:
         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
-          link: "#"
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
           conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
-          link: "#"
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
         - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra"
-          link: "#"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
-          conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted at Design Automation Conference 2020.
+          conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted into Design Automation Conference 2020.
         - title: SLAM Performance on Embedded Robots
-          link: "#"
           authors: Nima Shoghi, Ramyad Hadidi, Hyesoon Kim
-          conference: Measured and optimized the performance of running stereo camera SLAM on the Raspberry Pi. Concludes that our optimizations can speed up the algorithm’s runtime by about 5× with minor impact on accuracy. Awarded 3rd place in the 2019 ACM Student Research Competition at ESWEEK.
+          conference: Measured and optimized the performance of running stereo camera SLAM on the Raspberry Pi. Concludes that our optimizations can speed up the algorithm’s runtime by about 5× with minor impact on accuracy. Accepted into and awarded 3rd place at the 2019 ACM Student Research Competition at ESWEEK.
         - title: Understanding the Software and Hardware Stacks of a General-Purpose Cognitive Drone
-          link: "#"
           authors: Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi
           conference: Analyzes the ArduCopter's performance under different workloads. Studies area-specific applications' effect on the flight stack. Accepted into ISPASS 2020.
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-        - name: Python & Django
-          level: 98%
-
-        - name: Javascript & jQuery
-          level: 98%
-
-        - name: Angular
-          level: 98%
-
-        - name: HTML5 & CSS
-          level: 95%
-
-        - name: Ruby on Rails
-          level: 85%
-
-        - name: Sketch & Photoshop
-          level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

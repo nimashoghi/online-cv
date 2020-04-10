@@ -7,183 +7,167 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Nima Shoghi
+    tagline: Machine Learning Engineer
+    avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: nimashoghi@gmail.com
+    phone: 404-862-0633
+    website: nima.sh #do not add http://
+    linkedin: nimashoghi
+    github: nimashoghi
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: "@nimashoghi1"
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+        - idiom: English
+          level: Professional
 
-      - idiom: French
-        level: Professional
+        - idiom: Farsi
+          level: Native
 
-      - idiom: Spanish
-        level: Professional
+        - idiom: Spanish
+          level: Intermediate
 
     interests:
-      - item: Climbing
-        link:
+        - item: Climbing
+          link:
 
-      - item: Snowboarding
-        link:
+        - item: Snowboarding
+          link:
 
-      - item: Cooking
-        link:
+        - item: Cooking
+          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a Master's student at Georgia Institute of Technology specializing in Machine Learning. I currently work as a student research assistant at the High Performance Architecture Lab at Georgia Tech.
+
+      Below is a list of my areas of experience:
+
+      - Artificial Intelligence and Machine Learning: NumPy, Pandas, TensorFlow, PyTorch, Keras, Scikit-Learn
+      - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans
+      - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
+      - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
+      - Full Stack Web Development: React, Angular, GraphQL and Apollo Client, ASP.NET Core
+      - Mobile Application Development: React Native, Android
+      - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java
+      - Reverse Engineering and Malware Analysis: Ghidra, IDA Pro, Cuckoo Sandbox, Yara, Capstone, Frida, WinDbg, x64dbg
+      - Systems Programming: Windows Device Drivers, Intel VT-x and VT-d, x86 and x86-64 assembly
+      - Test-Driven Development and Behavior-Driven Development: Cucumber, NUnit, Jest, FsCheck
+      - Miscellaneous: Windows, Linux, Debugging with Visual Studio and GDB, Git, PowerShell, Bash
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master of Science in Computer Science
+      university: Georgia Institute of Technology
+      time: 2020-2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+    - degree: Bachelor of Science in Computer Science
+      university: Georgia Institute of Technology
+      time: 2015 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Development and Machine Learning Engineer
+      time: 11.2019 - Present
+      company: Inovar Health, LLC
+      details: Worked on a mobile application that matches users with similar activity interests within an organization. Worked on matchmaking algorithm that used data science and machine learning to optimize matches made. Customers include Georgia State University, Mercer University, and Georgia Power.
+    - role: Student Assistant
+      time: 05.2019 - Present
+      company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Worked on the following projects during time at the HPArch lab:
+          - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
+          - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
+        compared to the Linux scheduler.
+          - Exploiting sparsity of the SLAM algorithm to create an efficient, low-power SLAM implementation on the FPGA,
+        which consumes 2.5× less power and is 7.4× faster than the state-of-the-art.
+          - Creating a secure and verified location-aware communication mechanism for autonomous vehicles.    - role: Software Engineering Intern
+    - role: Software Engineering Intern
+      time: 05.2017 - 05.2018
+      company: Ciena Corporation
+      details: Developed software to interface with network devices (e.g., Cisco Meraki) for orchestration, which was deployed to over 150 customers worldwide, with 15 being tier 1 service providers. Maintained CI/CD pipeline for application build process.
+    - role: Full-Stack Web Development Intern
+      time: 05.2016 - 01.2017
+      company: SysGee Incorporated
+      details: Performed full stack development of web applications using PHP, MySQL, HTML, CSS, and JavaScript.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        You can list your side projects or open source libraries in this
+        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - title: Ringo: Optimal Ring Peer-to-peer Communication Protocol
+          link: "#"
+          tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+        You can list your publications in this section. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+        bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+        - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
+          link: "#"
+          authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
+          conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
+        - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
+          link: "#"
+          authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
+          conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
+        - title: PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra
+          link: "#"
+          authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
+          conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted at Design Automation Conference 2020.
+        - title: SLAM Performance on Embedded Robots
+          link: "#"
+          authors: Nima Shoghi, Ramyad Hadidi, Hyesoon Kim
+          conference: Measured and optimized the performance of running stereo camera SLAM on the Raspberry Pi. Concludes that our optimizations can speed up the algorithm’s runtime by about 5× with minor impact on accuracy. Awarded 3rd place in the 2019 ACM Student Research Competition at ESWEEK.
+        - title: Understanding the Software and Hardware Stacks of a General-Purpose Cognitive Drone
+          link: "#"
+          authors: Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi
+          conference: Analyzes the ArduCopter's performance under different workloads. Studies area-specific applications' effect on the flight stack. Accepted into ISPASS 2020.
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+        - name: Python & Django
+          level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+        - name: Javascript & jQuery
+          level: 98%
 
-      - name: Angular
-        level: 98%
+        - name: Angular
+          level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+        - name: HTML5 & CSS
+          level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+        - name: Ruby on Rails
+          level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+        - name: Sketch & Photoshop
+          level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

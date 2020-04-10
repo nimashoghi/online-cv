@@ -90,6 +90,9 @@ experiences:
 projects:
     title: Projects
     assignments:
+        - title: Operation Dynamo
+          link: "https://operationdynamo.org"
+          tagline: "A platform for crowdsourced 3D printing of parts COVID 19."
         - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
           tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
         - title: "Smart Dasham and Backup Camera"

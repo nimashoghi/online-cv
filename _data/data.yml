@@ -102,7 +102,7 @@ publications:
     title: Publications
     papers:
         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
-          authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
+          authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari
           conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari

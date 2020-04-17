@@ -101,12 +101,12 @@ projects:
 publications:
     title: Publications
     papers:
-        - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
-          authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari
-          conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
-        - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
-          authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
-          conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
+#         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
+#           authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari
+#           conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
+#         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
+#           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
+#           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
         - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
           conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted into Design Automation Conference 2020.

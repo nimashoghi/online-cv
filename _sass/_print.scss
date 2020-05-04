@@ -19,8 +19,13 @@
     .sidebar-wrapper {
         position: static;
         float: right;
-        width: 40%;
+        width: 20%; /* Changed */
         -webkit-print-color-adjust: exact; 
+    }
+
+    /* Added */
+    .section-title .fa-stack {
+        display: none;
     }
 
     .remove-container.container-block {
@@ -36,4 +41,46 @@
        -webkit-print-color-adjust: exact; 
     }
 
+    .remove-container.container-block {
+        display: none;
+    }
+
+    .skillset .level-bar-inner {
+        background-color: black !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .wrapper {
+        max-width: unset;
+    }
+
+    .contact-container a[href]:after {
+        content: "";
+    }
+
+    .project-title,
+    .job-title,
+    .publications-section .item > li {
+        font-weight: bold !important;
+    }
+
+    .main-wrapper .section {
+        margin-bottom: 15px !important;
+    }
+
+    .main-wrapper .section-title {
+        left: -45px;
+        font-weight: bold !important;
+        margin-bottom: 10px !important;
+    }
+
+    .main-wrapper .section-title:before {
+        content: "⚪";
+    }
+}
+
+
+/* Added */
+.publications-section .item {
+    list-style-type: none;
 }

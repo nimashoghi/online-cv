@@ -9,7 +9,7 @@ sidebar:
 
     # Sidebar links
     email: nimashoghi [at] gmail [dot] com
-    phone: 
+    phone:
     website: nima.sh #do not add http://
     linkedin: nimashoghi
     github: nimashoghi
@@ -44,16 +44,15 @@ career-profile:
         Below is a list of my areas of experience:
 
         - Artificial Intelligence and Machine Learning: PyTorch, TensorFlow, NumPy, Pandas, Keras, Scikit-Learn
-        - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans
+        - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans, Terraform, Pulumi
         - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
         - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
-        - Full Stack Web Development: React, Angular, GraphQL and Apollo Client, ASP.NET Core
+        - Full Stack Web Development: React, Angular, GraphQL, Apollo Client, ASP.NET Core, Jest, NUnit
         - Mobile Application Development: React Native, Android
         - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java
         - Reverse Engineering and Malware Analysis: Ghidra, IDA Pro, Cuckoo Sandbox, Yara, Capstone, Frida, WinDbg, x64dbg
         - Systems Programming: Windows Device Drivers, Intel VT-x and VT-d, x86 and x86-64 assembly
-        - Test-Driven Development and Behavior-Driven Development: Cucumber, NUnit, Jest, FsCheck
-        - Miscellaneous: Windows, Linux, Debugging with Visual Studio and GDB, Git, PowerShell, Bash
+        - Miscellaneous: Windows, Linux, Debugging (VS and GDB), Git, PowerShell, Bash
 education:
     - degree: Master of Science in Computer Science
       university: Georgia Institute of Technology
@@ -90,23 +89,26 @@ experiences:
 projects:
     title: Projects
     assignments:
+        - title: ProSay
+          link: "https://prosay.app"
+          tagline: "ProSay is a legal service delivery platform that has been accepted into Georgia Tech's CREATE-X program. Get your legal questions answered for as low as $10!"
         - title: Operation Dynamo
           link: "https://operationdynamo.org"
           tagline: "A platform for crowdsourced 3D printing of parts COVID 19."
         - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
           tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
-        - title: "Smart Dasham and Backup Camera"
-          link: "https://github.com/nimashoghi/ECE-4180-Project"
-          tagline: A Raspberry-Pi-based application for wirelessly transmitting backup camera video to an LCD located in the front of the car. Additionally includes a dashcam module that automatically uploads your Dashcam footage to Google Drive when you arrive home.
+        # - title: "Smart Dasham and Backup Camera"
+        #   link: "https://github.com/nimashoghi/ECE-4180-Project"
+        #   tagline: A Raspberry-Pi-based application for wirelessly transmitting backup camera video to an LCD located in the front of the car. Additionally includes a dashcam module that automatically uploads your Dashcam footage to Google Drive when you arrive home.
 publications:
     title: Publications
     papers:
-#         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
-#           authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari
-#           conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
-#         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
-#           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
-#           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
+        #         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
+        #           authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari
+        #           conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Submitted to IROS 2020.
+        #         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
+        #           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
+        #           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
         - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
           conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Accepted into Design Automation Conference 2020.

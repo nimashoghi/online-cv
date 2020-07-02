@@ -80,6 +80,7 @@ experiences:
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
           Under Dr. Hyesoon Kim's supervision, worked on the following research projects:
+            - Creating a lossy delta-based compression scheme for neural network weight compression which reduces memory usage by up to 85% with negligance accuracy decrease and decompression performance overhead.
             - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
             - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
           compared to the Linux scheduler.
@@ -90,10 +91,10 @@ experiences:
       time: May 2017 - May 2018
       company: Ciena Corporation
       details: Developed software to interface with network devices (e.g., Cisco Meraki) for orchestration, which was deployed to over 150 customers worldwide, with 15 being tier 1 service providers. Maintained CI/CD pipeline for application build process.
-    - role: Full-Stack Web Development Intern
-      time: May 2016 - Jan 2017
-      company: SysGee Incorporated
-      details: Performed full stack development of web applications using PHP, MySQL, HTML, CSS, and JavaScript.
+    # - role: Full-Stack Web Development Intern
+    #   time: May 2016 - Jan 2017
+    #   company: SysGee Incorporated
+    #   details: Performed full stack development of web applications using PHP, MySQL, HTML, CSS, and JavaScript.
 projects:
     title: Projects
     assignments:
@@ -103,8 +104,8 @@ projects:
         - title: Operation Dynamo
           link: "https://operationdynamo.org"
           tagline: "A platform for crowdsourced 3D printing of parts COVID 19."
-        - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
-          tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
+          # - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
+          # tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
         # - title: "Smart Dasham and Backup Camera"
         #   link: "https://github.com/nimashoghi/ECE-4180-Project"
         #   tagline: A Raspberry-Pi-based application for wirelessly transmitting backup camera video to an LCD located in the front of the car. Additionally includes a dashcam module that automatically uploads your Dashcam footage to Google Drive when you arrive home.

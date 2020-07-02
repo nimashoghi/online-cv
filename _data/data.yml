@@ -63,15 +63,23 @@ education:
       time: May 2015 - Dec 2019
       details: Specializing in the Intelligence and Devices threads.
 experiences:
+    - role: Student Research Assistant
+      time: May 2020 - Present
+      company: Cyber Forensics Innovation Lab at Georgia Institute of Technology
+      details: Under Dr. Brendan Saltaformaggio's supervision, maintained and developed a concolic analysis tool that uses heuristics to induce (through symoblic execution) and detect malware behavior. Additionally, analyzed popular malware samples (e.g., WannaCry and Stuxnet) to create heuristics for detecting common malware behavior.
+    - role: Student Research Assistant
+      time: Jan 2020 - May 2020
+      company: Cyber Forensics Innovation Lab at Georgia Institute of Technology
+      details: Under Dr. Maria Konte's supervision, developed social media data collection apparatuses for classification of malicious online behavior. Analyzed this data to create a pre-emptive cyber attack detection framework based on live social media data.
     - role: Software Development and Machine Learning Engineer
       time: Nov 2019 - Present
       company: Inovar Health, LLC
       details: Worked on a mobile application that matches users with similar activity interests within an organization. Worked on matchmaking algorithm that used data science and machine learning to optimize matches made. Customers include Georgia State University, Mercer University, and Georgia Power.
-    - role: Student Assistant
+    - role: Student Research Assistant
       time: May 2019 - Present
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
-          Worked on the following projects during time at the HPArch lab:
+          Under Dr. Hyesoon Kim's supervision, worked on the following research projects:
             - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
             - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
           compared to the Linux scheduler.

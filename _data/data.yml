@@ -63,6 +63,10 @@ education:
       time: May 2015 - Dec 2019
       details: Specializing in the Intelligence and Devices threads.
 experiences:
+    - role: Graduate Teaching Assistant
+      time: Aug 17 - Present
+      company: Georgia Institute of Technology
+      details: Assisted Dr. Merrick Furst in teaching the Automata and Complexity course to 125 students. Wrote and graded homework assignments. Held weekly office hours to help students.
     - role: Software Development and Machine Learning Engineer
       time: Nov 2019 - Present
       company: Inovar Health, LLC
@@ -83,6 +87,7 @@ experiences:
       company: Cyber Forensics Innovation (CyFI) Lab at Georgia Institute of Technology
       details: |
         Under Dr. Maria Konte's supervision, developed social media data collection apparatuses for classification of malicious online behavior. Analyzed this data to create a pre-emptive cyber attack detection framework based on live social media data.
+        
         Under Dr. Brendan Saltaformaggio's supervision, maintained and developed a concolic analysis tool that uses heuristics to induce (through symoblic execution) and detect malware behavior. Additionally, analyzed popular malware samples (e.g., WannaCry and Stuxnet) to create heuristics for detecting common malware behavior.
     - role: Software Engineering Intern
       time: May 2017 - May 2018

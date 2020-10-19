@@ -122,6 +122,7 @@ publications:
         #           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
         - title: "Neural Network Weight Compression with NNW-BDI (2020)"
           authors: Nima Shoghi, Andrei Bersatti, Hyesoon Kim
+          link: https://www.memsys.io/wp-content/uploads/2020/10/p356-bersatti.pdf
           conference: Proposes a compression mechanism for neural network weights that uses techniques such as quantization, downscaling, randomized base selection, and base-delta-configuration adjustment. Reduces memory usage by up to 85% without any inference accuracy reduction. Accepted into MEMSYS 2020.
         - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra (2020)"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi

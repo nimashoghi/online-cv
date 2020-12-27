@@ -116,7 +116,7 @@ publications:
     papers:
         - title: "Quantifying the Design-Space Tradeoffs in Autonomous Drones (2020)"
           authors: Ramyad Hadidi, Bahar Asgari, Sam Jijina, Adriana Amyette, Nima Shoghi, Hyesoon Kim
-          link: https://asplos-conference.org/abstracts/asplos21-paper321-extended_abstract.pdf
+          link: https://ramyadhadidi.github.io/files/asplos21_drone.pdf
           conference: Formalizes fundamental drone subsystems and finds how computations can impact this design space. Presents a design-space exploration of autonomous drone systems. Releases a fully customizable open-source drone hardware and software stack.
         #         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems
         #           authors: Nima Shoghi, Ramyad Hadidi, Bahar Asgari

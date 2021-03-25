@@ -118,6 +118,9 @@ publications:
           authors: Ramyad Hadidi, Bahar Asgari, Sam Jijina, Adriana Amyette, Nima Shoghi, Hyesoon Kim
           link: https://ramyadhadidi.github.io/files/asplos21-drone.pdf
           conference: Formalizes fundamental drone subsystems and finds how computations can impact this design space. Presents a design-space exploration of autonomous drone systems. Releases a fully customizable open-source drone hardware and software stack.
+        - title: "Context-Aware Task Handling in Resource-Constrained Robots with Virtualization (2021)"
+          authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari, Hyesoon Kim
+          conference: Proposes a fast context-aware task handling technique with three components: (i) a dynamic time-sharing mechanism, coupled with (ii) an event-driven task scheduling using reactive programming paradigm to mindfully use the limited resources; and, (iii) a lightweight virtualized execution to easily integrate functionalities and their dependencies. Poster accepted into DAC 2021.
         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems (2020)
           link: https://arxiv.org/abs/2011.08936
           authors: Nima Shoghi, Ramyad Hadidi , Lee Jaewon, Jun Chen, Arthur Siqueria Rahul Rajan, Shaan Dhawan, Pooya Shoghi, Hyesoon Kim

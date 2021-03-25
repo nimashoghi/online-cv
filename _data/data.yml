@@ -76,7 +76,7 @@ experiences:
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
           Under Dr. Hyesoon Kim's supervision, worked on the following research projects:
-            - Creating a lossy delta-based compression scheme for neural network weight compression which reduces memory usage by up to 85% with negligance accuracy decrease and decompression performance overhead.
+            - Creating a lossy delta-based compression scheme for neural network weight compression which reduces memory usage by up to 85% with negligible accuracy decrease and decompression performance overhead.
             - Optimizing execution of visual SLAM on the Raspberry Pi to achieve a 5× speedup in total processing time.
             - Intelligent context-aware scheduling algorithm for dynamically allocating CPU resources, achieving a 42% speedup
           compared to the Linux scheduler.

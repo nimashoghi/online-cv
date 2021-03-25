@@ -47,6 +47,7 @@ career-profile:
         - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans, Terraform, Pulumi
         - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
         - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
+        - FPGA programming using high level synthesis tools (e.g., Vitis HLS) and hardware description languages (e.g., Verilog and VHDL)
         - Full Stack Web Development: React, Angular, GraphQL, Apollo Client, ASP.NET Core, Jest, NUnit
         - Mobile Application Development: React Native, Android
         - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java

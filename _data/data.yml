@@ -4,7 +4,7 @@ sidebar:
 
     # Profile information
     name: Nima Shoghi
-    tagline: Software Development & Machine Learning Engineer
+    tagline: Machine Learning Researcher
     avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -39,23 +39,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a Master's student at Georgia Institute of Technology specializing in Machine Learning. I currently work as a student research assistant at the High Performance Architecture Lab at Georgia Tech.
-
-        Below is a list of my areas of experience:
-
-        - Artificial Intelligence and Machine Learning: PyTorch, TensorFlow, NumPy, Pandas, Keras, Scikit-Learn
-        - Containers, Microservices, and Distributed Computing: Docker, Kubernetes, Microsoft Orleans, Terraform, Pulumi
-        - Database: MySQL, MSSQL, PostgreSQL, MongoDB, Redis
-        - Embedded Devices: ARM, Raspberry Pi, Arduino, Mbed OS, Node-RED, MQTT
-        - FPGA programming using high level synthesis tools (e.g., Vitis HLS) and hardware description languages (e.g., Verilog and VHDL)
-        - Full Stack Web Development: React, Angular, GraphQL, Apollo Client, ASP.NET Core, Jest, NUnit
-        - Mobile Application Development: React Native, Android
-        - Programming Languages: Python, TypeScript, F#, C, C++, C#, Java
-        - Reverse Engineering and Malware Analysis: Ghidra, IDA Pro, Cuckoo Sandbox, Yara, Capstone, Frida, WinDbg, x64dbg
-        - Systems Programming: Windows Device Drivers, Intel VT-x and VT-d, x86 and x86-64 assembly
-        - Miscellaneous: Windows, Linux, Debugging (VS and GDB), Git, PowerShell, Bash
+        I am a Master's student at Georgia Institute of Technology specializing in Machine Learning. I currently work as an AI resident at Facebook Artificial Intelligence Research (FAIR).
 education:
-    - degree: Master of Science in Computer Science
+    - degree: Master of Science in Computer Science (4.0 GPA)
       university: Georgia Institute of Technology
       time: Jan 2020 - May 2021
       details: Specializing in Machine Learning
@@ -64,16 +50,20 @@ education:
       time: May 2015 - Dec 2019
       details: Specializing in the Intelligence and Devices threads.
 experiences:
-    - role: Graduate Teaching Assistant
-      time: Aug 17 - Present
-      company: Georgia Institute of Technology
-      details: Assisted Dr. Merrick Furst in teaching the Automata and Complexity course to 125 students. Wrote and graded homework assignments. Held weekly office hours to help students.
+    - role: AI Resident
+      time: Will start in Aug 2021
+      company: Facebook Artificial Intelligence Research (FAIR)
+#       details: 
     - role: Software Development and Machine Learning Engineer
       time: Nov 2019 - Present
       company: Inovar Health, LLC
       details: Worked on a mobile application that matches users with similar activity interests within an organization. Worked on matchmaking algorithm that used data science and machine learning to optimize matches made. Customers include Georgia State University, Mercer University, and Georgia Power.
+    - role: Graduate Teaching Assistant
+      time: Aug 2020 - May 2021
+      company: Georgia Institute of Technology
+      details: Assisted Dr. Merrick Furst in teaching the Automata and Complexity course to 125 students. Wrote and graded homework assignments. Held weekly office hours to help students.
     - role: Student Research Assistant
-      time: May 2019 - Present
+      time: May 2019 - May 2021
       company: High Performance Architecture Lab at Georgia Institute of Technology
       details: |
           Under Dr. Hyesoon Kim's supervision, worked on the following research projects:
@@ -104,9 +94,9 @@ projects:
         - title: ProSay
           link: "https://prosay.app"
           tagline: "ProSay is a legal service delivery platform that has been accepted into Georgia Tech's CREATE-X program. Get your legal questions answered for as low as $10!"
-        - title: Operation Dynamo
-          link: "https://operationdynamo.org"
-          tagline: "A platform for crowdsourced 3D printing of parts COVID 19."
+#         - title: Operation Dynamo
+#           link: "https://operationdynamo.org"
+#           tagline: "A platform for crowdsourced 3D printing of parts COVID 19."
           # - title: "Ringo: Optimal Ring Peer-to-peer Communication Protocol"
           # tagline: A peer-to-peer communication protocol that dynamically forms an optimal ring network for reliable data transfer.
         # - title: "Smart Dasham and Backup Camera"
@@ -117,15 +107,16 @@ publications:
     papers:
         - title: "Quantifying the Design-Space Tradeoffs in Autonomous Drones (2021)"
           authors: Ramyad Hadidi, Bahar Asgari, Sam Jijina, Adriana Amyette, Nima Shoghi, Hyesoon Kim
-          link: https://ramyadhadidi.github.io/files/asplos21-drone.pdf
+          link: https://dl.acm.org/doi/abs/10.1145/3445814.3446721
           conference: Formalizes fundamental drone subsystems and finds how computations can impact this design space. Presents a design-space exploration of autonomous drone systems. Releases a fully customizable open-source drone hardware and software stack. Published at ASPLOS 2021.
         - title: "Context-Aware Task Handling in Resource-Constrained Robots with Virtualization (2021)"
+          link: https://arxiv.org/abs/2104.04563
           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari, Hyesoon Kim
-          conference: "Proposes a fast context-aware task handling technique with three components: (i) a dynamic time-sharing mechanism, coupled with (ii) an event-driven task scheduling using reactive programming paradigm to mindfully use the limited resources; and, (iii) a lightweight virtualized execution to easily integrate functionalities and their dependencies. Poster accepted into Design Automation Conference 2021."
+          conference: "Proposes a fast context-aware task handling technique with three components: (i) a dynamic time-sharing mechanism, coupled with (ii) an event-driven task scheduling using reactive programming paradigm to mindfully use the limited resources; and, (iii) a lightweight virtualized execution to easily integrate functionalities and their dependencies."
         - title: Secure Location Aware Authentication and Communication Protocol for Autonomous Systems (2020)
           link: https://arxiv.org/abs/2011.08936
           authors: Nima Shoghi, Ramyad Hadidi , Lee Jaewon, Jun Chen, Arthur Siqueria Rahul Rajan, Shaan Dhawan, Pooya Shoghi, Hyesoon Kim
-          conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes). Published at arXiv:2011.08936.
+          conference: Developed a secure and verified location-aware communication protocol for autonomous vehicles that uses asymmetric encryption to broadcast signed messages between vehicles, where encryption keys are shared visually (e.g., QR codes).
         #         - title: Context-Aware Task Handling in Resource-Constrained Robots with Virtualized Execution
         #           authors: Ramyad Hadidi, Nima Shoghi, Bahar Asgari
         #           conference: Devises a dynamic time-sharing mechanism that uses a robot’s sensor inputs to dynamically allocate Docker resources using reactive programming. Achieves a 42% speedup compared to the Linux scheduler. Submitted to IROS 2020.
@@ -136,16 +127,16 @@ publications:
         - title: "PISCES: Power-Aware Implementation of SLAM by Customizing Efficient Sparse Algebra (2020)"
           authors: Bahar Asgari, Ramyad Hadidi, Nima Shoghi
           conference: Implements a power-efficient SLAM algorithm on the FPGA by exploiting the sparsity of SLAM algorithms. Consumes 2.5× less power and is 7.4× faster than the state-of-the-art. Published at Design Automation Conference 2020.
-          link: https://www.prism.gatech.edu/~basgari3/papers/asgari-dac20.pdf
+          link: https://ieeexplore.ieee.org/document/9218550
           # link: https://www.prism.gatech.edu/~basgari3/papers/asgari-slides-dac20.pdf
         - title: Understanding the Software and Hardware Stacks of a General-Purpose Cognitive Drone (2020)
           authors: Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi
           conference: Analyzes the ArduCopter's performance under different workloads. Studies area-specific applications' effect on the flight stack. Published at ISPASS 2020.
-          link: http://comparch.gatech.edu/hparch/papers/jijina-cogarch20.pdf
+          link: https://ieeexplore.ieee.org/abstract/document/9238616
         - title: SLAM Performance on Embedded Robots (2019)
           authors: Nima Shoghi, Ramyad Hadidi, Hyesoon Kim
           conference: Measured and optimized the performance of running stereo camera SLAM on the Raspberry Pi. Concludes that our optimizations can speed up the algorithm’s runtime by about 5× with minor impact on accuracy. Awarded 3rd place at the 2019 ACM Student Research Competition at ESWEEK.
-          link: https://ramyadhadidi.github.io/files/shoghi_src_esweek.pdf
+          link: https://www.semanticscholar.org/paper/SLAM-Performance-on-Embedded-Robots-Undergraduate-Ghalehshahi-Hadidi/f8cfdb587e4098b2f55895c081fcf1fd52625bbc
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
